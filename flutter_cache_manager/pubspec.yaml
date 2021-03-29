@@ -13,10 +13,6 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.0
-  image:
-    git:
-      url: https://github.com/leopi99/image
-      ref: master
   path: ^1.8.0
   path_provider: ^2.0.0
   pedantic: ^1.10.0
@@ -25,6 +21,10 @@ dependencies:
   uuid:
     git:
       url: https://github.com/leopi99/dart-uuid
+      ref: master
+  image:
+    git:
+      url: https://github.com/leopi99/image
       ref: master
 
 dev_dependencies:
