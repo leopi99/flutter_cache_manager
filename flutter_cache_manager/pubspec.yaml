@@ -22,7 +22,10 @@ dependencies:
   pedantic: ^1.10.0
   rxdart: ^0.26.0
   sqflite: ^2.0.0+3
-  uuid: ^3.0.0
+  uuid:
+    git:
+      url: https://github.com/leopi99/dart-uuid
+      ref: master
 
 dev_dependencies:
   build_runner: ^1.11.5
